@@ -18,40 +18,40 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_cliente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/menu_cliente"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_empresa"
         app:layout_constraintStart_toStartOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_empresa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="36dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/menu_empresa"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button_cliente"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_servico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/menu_servico"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_contato"
+        app:layout_constraintStart_toStartOf="@+id/button_cliente" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_contato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="36dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/menu_contato"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/button_servico"
+        app:layout_constraintTop_toBottomOf="@+id/button_empresa" />
 </android.support.constraint.ConstraintLayout>
